@@ -1,11 +1,11 @@
-import WhatIsContainer from "./styled";
+import WhatIsWrapper from "./styled";
 
 export default function SectionWhatIs(){
 
     return(
-        <WhatIsContainer>
+        <WhatIsWrapper>
             <h1>O que é o mentorialab?</h1>
-            <div>
+            <div className='Container'> 
                 <img src="/assets/home/Ilustração2.svg" alt=""/>
 
                 <div>
@@ -25,6 +25,6 @@ export default function SectionWhatIs(){
                 </div>
 
             </div>
-        </WhatIsContainer>
+        </WhatIsWrapper>
     )
 }
