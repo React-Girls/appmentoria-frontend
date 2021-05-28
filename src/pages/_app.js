@@ -1,4 +1,5 @@
 import Globals from '../styles/globals'
+import Header from '../components/Header'
 
 
 function MyApp({ Component, pageProps }) {
@@ -7,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Globals />
       <div className="wrapper">
         <header /> 
-        {/* Substituir o header pelo componente do menu */}
+          <Header />
         <main>
           <Component {...pageProps} />
         </main>
