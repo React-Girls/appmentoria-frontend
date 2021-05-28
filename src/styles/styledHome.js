@@ -6,8 +6,8 @@ const HomeContainer = styled.div`
 
     section{
         height: 100%;
+        padding-top: 70px;
     }
 
 `
-
-export default HomeContainer
+export default HomeContainer;

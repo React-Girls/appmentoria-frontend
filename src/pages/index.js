@@ -14,7 +14,7 @@ export default function Home() {
 
       <section>Azul 1</section>
       <SectionWhatIs />
-      <section>Azul 2</section>
+      <section id='howIt'>Azul 2</section>
       <SectionTestimonials />
     </HomeContainer>
   )

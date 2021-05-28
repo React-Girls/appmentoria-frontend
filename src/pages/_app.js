@@ -6,12 +6,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Globals />
-      <div className="wrapper">
-        <header /> 
+      <div className='wrapper'>        
           <Header />
-        <main>
           <Component {...pageProps} />
-        </main>
       </div>
     </>
   )

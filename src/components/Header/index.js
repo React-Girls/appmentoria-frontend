@@ -11,7 +11,7 @@ export default function Header(){
                 <div className="info">
                     <img src="./assets/home/logo.svg" alt="Logo Mentoria Lab"/>
                     <div>
-                        <Link href='/'>
+                        <Link href='#howIt'>
                             <a>Como funciona?</a>
                         </Link>
                         <Link href='/'>

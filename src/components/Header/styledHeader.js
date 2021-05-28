@@ -14,6 +14,9 @@ export const HeaderWrapper = styled.div`
     display: flex;
     align-items: center;
 
+    z-index: 1;
+    position: fixed;
+
     .headerContainer{
         width: 100%;
         display: flex;
@@ -38,6 +41,10 @@ export const HeaderWrapper = styled.div`
 
         .signin{
             width: 80px;
+
+            a:first-child{
+                margin-right: 10px;
+            }
         }
     }
 `
