@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import SectionTestimonials from '../components/Home/SectionTestimonials'
-import SectionWhatIs from '../components/Home/SectionWhatIs'
+import SectionTestimonials from '../containers/Home/SectionTestimonials'
+import SectionWhatIs from '../containers/Home/SectionWhatIs'
 import HomeContainer from '../styles/styledHome'
 
 export default function Home() {
