@@ -1,5 +1,8 @@
 import Link from 'next/link';
-import { HeaderWrapper } from "./styledHeader";
+import { HeaderWrapper, 
+        HeaderContainer,
+        Info,
+        Signin } from "./styledHeader";
 import { FaUser } from "react-icons/fa";
 import { FiMenu } from 'react-icons/fi';
 
@@ -7,8 +10,8 @@ export default function Header(){
 
     return(
         <HeaderWrapper>
-            <div className="headerContainer">
-                <div className="info">
+            <HeaderContainer>
+                <Info>
                     <img src="./assets/home/logo.svg" alt="Logo Mentoria Lab"/>
                     <div>
                         <Link href='#howIt'>
@@ -18,16 +21,16 @@ export default function Header(){
                             <a>Quero ser mentor</a>
                         </Link>
                     </div>
-                </div>
-                <div className="signin">
+                </Info>
+                <Signin>
                     <Link href="/">
                        <a><FaUser /></a> 
                     </Link>
                     <Link href="/">
                         <a><FiMenu /></a>
                     </Link>
-                </div>
-            </div>
+                </Signin>
+            </HeaderContainer>
         </HeaderWrapper>
     )
 }

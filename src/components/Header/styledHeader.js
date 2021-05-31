@@ -17,14 +17,17 @@ export const HeaderWrapper = styled.div`
     z-index: 1;
     position: fixed;
 
-    .headerContainer{
+`
+
+export const HeaderContainer = styled.div`
         width: 100%;
         display: flex;
         padding: 0 10px;
         align-items: center;
         justify-content: space-between;
+`
 
-        .info{
+export const Info = styled.div`
             width: 70%;
             padding-left: 10px;
             display: flex;
@@ -37,15 +40,13 @@ export const HeaderWrapper = styled.div`
                 display: flex;
                 justify-content: space-around;
             }
-        }
+`
 
-        .signin{
-            width: 80px;
+export const Signin = styled.div`
+    width: 80px;
 
-            a:first-child{
-                margin-right: 10px;
-            }
-        }
+    a:first-child{
+        margin-right: 10px;
     }
 `
 
