@@ -12,16 +12,17 @@ export const WhatIsWrapper = styled.div`
 `
 
 export const Container = styled.div`
+
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        img{
-            width: 595px;
-            height: 597px;
-        }
     
+`
+
+export const Img = styled.img`
+        width: 595px;
+        height: 597px;
 `
 
 export const Div = styled.div`

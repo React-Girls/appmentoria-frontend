@@ -1,6 +1,6 @@
 import Title from "../../../components/foundation/Title";
 import Typography from "../../../components/foundation/Typography";
-import { WhatIsWrapper, Container, Div } from "./styled";
+import { WhatIsWrapper, Container, Div, Img } from "./styled";
 
 export default function SectionWhatIs(){
 
@@ -8,8 +8,8 @@ export default function SectionWhatIs(){
         <WhatIsWrapper>
             <Title>O que é o mentorialab?</Title>
 
-            <Container> 
-                <img src="/assets/home/Ilustração2.svg" alt=""/>
+            <Container active> 
+                <Img src="/assets/home/Ilustração2.svg" alt=""/>
 
                 <Div>
                     <Typography>
