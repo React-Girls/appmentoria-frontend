@@ -23,8 +23,8 @@ export default function Header(){
                     </div>
                 </Info>
                 <Signin>
-                    <Link href="/">
-                       <a><FaUser /></a> 
+                    <Link href="/login">
+                       <a><FaUser /></a>
                     </Link>
                     <Link href="/">
                         <a><FiMenu /></a>
