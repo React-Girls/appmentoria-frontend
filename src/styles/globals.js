@@ -10,6 +10,10 @@ const Globals = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     button{
         cursor: pointer;
     }
