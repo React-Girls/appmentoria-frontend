@@ -1,4 +1,5 @@
 import Title from "../../../components/foundation/Title";
+import TitleH3 from "../../../components/foundation/TitleH3";
 import Typography from "../../../components/foundation/Typography";
 import { WhatIsWrapper, Container, Div } from "./styled";
 
@@ -19,10 +20,10 @@ export default function SectionWhatIs(){
                         e carreiras.
                     </Typography>
                     
-                    <Typography>
+                    <TitleH3>
                         Oferecemos agenda, vídeochamada, gravação, fórum, e pagamento
                         100% seguro. Cuidamos de tudo para você!
-                    </Typography>
+                    </TitleH3>
 
                     <button>
                         Quero encontrar um mentor!

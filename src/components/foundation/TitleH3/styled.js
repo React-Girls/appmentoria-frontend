@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const Paragraph = styled.p`
+export const H3 = styled.h3`
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 50px;/* or 179% */
 
-    color: #000000;
+    color: ${props => props.white ? '#FFFFFF' : '#000000'} ;
 
 `

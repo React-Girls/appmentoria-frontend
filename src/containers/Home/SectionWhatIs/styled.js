@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 
 export const WhatIsWrapper = styled.div`
-    height: 100%;
-    background: #E5E5E5;
-
+    width: 1152px;
+    
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -26,7 +25,6 @@ export const Container = styled.div`
 
 export const Div = styled.div`
         width: 587px;
-        height: 100%;
 
         display: flex;
         flex-direction: column;

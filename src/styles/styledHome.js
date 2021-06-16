@@ -1,13 +1,26 @@
 import styled from 'styled-components'
 
-const HomeContainer = styled.div`
+export const HomeContainer = styled.div`
     width: 100%;
     height: 100vh;
+`
 
-    section{
-        height: 100%;
-        padding-top: 70px;
-    }
+export const Main = styled.main`
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
 
 `
-export default HomeContainer;
+
+export const Section = styled.section`
+    width: 100%;
+    height: 700px;
+    padding-top: 70px;
+
+    background: ${props => props.blue ? '#0062B9': '#FFFFFF'};
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`

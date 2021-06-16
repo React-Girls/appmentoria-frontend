@@ -13,6 +13,7 @@ export const HeaderWrapper = styled.div`
 
     display: flex;
     align-items: center;
+    justify-content: center;
 
     z-index: 1;
     position: fixed;
@@ -20,7 +21,7 @@ export const HeaderWrapper = styled.div`
 `
 
 export const HeaderContainer = styled.div`
-        width: 100%;
+        width: 1152px;
         display: flex;
         padding: 0 10px;
         align-items: center;
