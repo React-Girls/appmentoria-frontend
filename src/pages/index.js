@@ -4,6 +4,7 @@ import SectionTestimonials from '../containers/Home/SectionTestimonials'
 import SectionWhatIs from '../containers/Home/SectionWhatIs'
 import {HomeContainer, Main, Section} from '../styles/styledHome'
 import SectionFindMentor from '../containers/Home/SectionFindMentor'
+import SectionHowIt from '../containers/Home/SectionHowIt'
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
           <SectionWhatIs />
         </Section>
         
-        <Section id='howIt' blue>Azul 2</Section>
+        <Section id='howIt' blue>
+          <SectionHowIt />
+        </Section>
         
         <Section>
           <SectionTestimonials />

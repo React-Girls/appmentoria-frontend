@@ -1,9 +1,9 @@
 import { Paragraph } from "./styled";
 
 
-export default function Typography({ children }){
+export default function Typography({ children, color }){
     return(
-        <Paragraph>
+        <Paragraph white={color}>
             {children}
         </Paragraph>
     )
