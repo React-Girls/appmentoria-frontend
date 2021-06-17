@@ -1,3 +1,4 @@
+import Button from "../../../components/foundation/Button";
 import Title from "../../../components/foundation/Title";
 import TitleH3 from "../../../components/foundation/TitleH3";
 import Typography from "../../../components/foundation/Typography";
@@ -25,9 +26,9 @@ export default function SectionWhatIs(){
                         100% seguro. Cuidamos de tudo para você!
                     </TitleH3>
 
-                    <button>
+                    <Button color='blue'>
                         Quero encontrar um mentor!
-                    </button>
+                    </Button>
                 </Div>
 
             </Container>

@@ -1,3 +1,4 @@
+import Button from "../../../components/foundation/Button";
 import Title from "../../../components/foundation/Title";
 import TitleH3 from "../../../components/foundation/TitleH3";
 import { Container, Div, FindMetorWrapper } from "./styled";
@@ -17,9 +18,9 @@ export default function SectionFindMentor(){
                         Alavanque seus conhecimentos com mentoria personalizada!
                     </TitleH3>
 
-                    <button>
+                    <Button>
                         Quero encontrar um mentor!
-                    </button>
+                    </Button>
                 </Div>
                 <img src="/assets/home/Mentor1.svg" alt="" />
             </Container>
