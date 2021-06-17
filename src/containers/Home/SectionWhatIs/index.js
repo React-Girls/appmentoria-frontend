@@ -7,7 +7,7 @@ export default function SectionWhatIs(){
 
     return(
         <WhatIsWrapper>
-            <Title>O que é o mentorialab?</Title>
+            <Title color='blue'>O que é o mentorialab?</Title>
 
             <Container> 
                 <img src="/assets/home/Ilustração2.svg" alt=""/>

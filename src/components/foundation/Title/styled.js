@@ -7,5 +7,5 @@ export const TitleH1 = styled.h1`
     font-size: 60px;
     line-height: 50px; /* or 83% */
 
-    color: #0062B9;
+    color: ${props => props.blue ? '#0062B9' : '#FFFFFF'};
 `
